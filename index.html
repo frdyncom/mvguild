@@ -181,9 +181,13 @@ nav a:hover{color:#fff}
   }
 
   .hero{
-    height:100vh;
-    min-height:100svh;
-  }
+  position:relative;
+  height:85vh;
+  min-height:560px;
+  max-height:760px;
+  overflow:hidden;
+}
+
 
   .hero-content{
     left:5%;
@@ -393,6 +397,12 @@ nav a:hover{color:#fff}
   0%{opacity:.3}
   50%{opacity:.7}
   100%{opacity:.3}
+}
+@media(max-width:768px){
+  .hero{
+    height:75vh;
+    min-height:520px;
+  }
 }
 
 
